@@ -1,0 +1,219 @@
+html{
+    scroll-behavior: smooth
+}
+ul{
+    list-style: none;
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    background-color: #08300c;
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 0px 4px black;
+    padding-top: 100px;
+}
+#Alia{
+ font-size: 55px;
+ padding-left: 55px;
+ color: #ff4500;
+ font-weight: bold;
+ 
+}
+#Bhat{
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: bold;
+    /* padding-top: 55px; */
+   
+}
+
+ul li{
+    border: solid 1px #000000;
+    border-radius: 25px;
+    height: 65px;
+    width: 155px;
+    margin-left: 80px;
+    line-height: 65px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+ul li a{
+    color: #fefbfb;
+    font-size: 26px;
+    text-decoration: none;
+    display: block;
+}
+ul li a:hover{
+    background-color: #f2b306;
+    color: #000000;
+    border-radius: 25px;
+}
+#section1{
+    height: 695px;
+    border: solid 1px #000000 hidden;
+    background-color: #80808054;
+    padding-left: 380px;
+    padding-top: 100px;
+}
+#hi,#iam,#aliabhat{
+    font-size: 35px;
+    font-weight: bold;
+}
+#aliabhat{
+    color: #ff4500;
+}
+#readmore{
+    height: 60px;
+    width: 140px;
+    border-radius: 45px;
+    border: solid 1px black;
+    background-color: #ffa500;
+    font-size: 18px;
+    color: #ffffff;
+}
+#readmore:hover{
+    color: black;
+    background-color: #f2b306a1;
+    border-radius: 45px;
+}
+/* -------------------------------------- */
+#section2{
+    height: 695px;
+    border: solid 1px #000000 hidden;
+    background-color: #80808054 ;
+    padding-left: 380px;
+    display: flex;
+}
+#box1{
+    border: solid 1px #000000 hidden;
+    height: 695px;
+    width: 500px;
+    padding-left: 60px;
+}
+#box2{
+    border: solid 1px #000000 hidden;
+    height: 695px;
+    width: 618px;
+}
+td{
+    border: solid 1px black;
+    height: 30px;
+    width: 220px;
+    font-size: 20px;
+    background-color: #ff62006e;
+    padding-left: 15px;
+    color: #000080;
+    /* color: white;    */
+    font-weight: bold;
+    border-radius: 10px;
+}
+table{
+    margin-left: 50px;
+}
+/* -------------------------------- */
+#myskills{
+    border: solid 1px #000000 hidden;
+    height: 400px;
+    padding-left: 390px;
+    padding-top: 30px;
+    background-color: #80808054;
+}
+#meter{
+    height: 28px;
+    width: 500px;
+    color: #ff4500;
+}
+/* ---------------------------------------- */
+#section3{
+    border: solid 1px #00000000;
+    height: 830px;
+    background-color: #80808054;
+    
+}
+#p1,#p2,#p3,#p4,#p5{
+    border: solid 1px #000000;
+    border-radius: 20px;
+    height: 140px;  
+    width: 1000px;
+    margin: 20px;
+    margin-left: 410px;
+    background-color: #f9f6f6e0;
+    padding-left: 20px;
+}
+
+#Name{
+    font-size: 30px;
+    text-align: center;
+    color: #ff4500;
+}
+/* --------------------- */
+#section4{
+    border: solid 1px black hidden;
+    height: 740px;
+    background-color: #80808054;
+}
+.cout{
+    border: solid 1px black hidden;
+    height: 260px;
+    width: 1100px;
+    margin-left: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+#c1,#c2,#c3{
+    border: solid 1px black hidden;
+    height: 260px;
+    width: 320px;
+}
+/* ----------------------------- */
+#section5{
+    border: solid 1px #000000 hidden;
+    height: 660px;
+    background-color: #80808054;
+}
+
+.cbout{
+    border: solid 1px #000000 hidden;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+#cb1,#cb2,#cb3{
+    border: solid 1px #000000;
+    border-radius: 20px;
+    height: 140px;
+    width: 310px; 
+    padding-left: 25px;  
+}
+#cb1{
+    margin-left: 400px;
+}
+#cbbox{
+    border: solid 1px #000000;
+    width: 1090px;
+    height: 440px;
+    margin-left: 400px;
+    padding-left: 10px;
+}
+label{
+    font-size: 21px;
+    color: #ff4500;
+    font-weight: bold;
+}
+input{
+    height: 30px;
+    width: 1000px;
+    border: none;
+    outline: none;
+    background-color: #80808000;
+    border-bottom: solid 1px black;
+}
+textarea{
+    width: 1000px;
+     background-color: #80808000;
+     border: none;
+     outline: none;
+     border-bottom: solid 1px black;
+}
